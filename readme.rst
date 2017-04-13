@@ -1,0 +1,1 @@
+Chattery is a web communication application. More to be added later as I figure things out along the way.
