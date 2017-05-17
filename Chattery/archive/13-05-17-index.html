@@ -35,17 +35,11 @@
 			</div>
 			<div class="col-md-10" style="border: 2px solid gray;">
 				<div class="container" style="height: 100%; width: 100%; display: flex; flex-direction: column-reverse">
-                    <form method="post" id="msg_form" style="text-align: right">
-                        <div style="width: 100%; margin: 1px 2%; text-align: left">
-                            <span>
-                                Name: 
-                                <input form="msg_form" type="text" name="name" value="anonymous" style="border: 1px solid silver; padding: 0px 10px">    
-                            </span>
-                        </div>
+                    <form method="post" id="msg_form">
     					<div class="row input-row" style="margin: 5px; border: 1px solid gray; flex: 1; max-height: 80px">
-    						<textarea class="form-control input-box" rows="3" form="msg_form" name="msg_text"></textarea>
+    						<textarea class="form-control input-box" rows="3" form="msg_form" name="msg_text">ThatGuy: </textarea>
     					</div>
-                        <input class="post_button" type="submit" name="Post" value="Post" style="margin: 0 2% 1% 2%; padding-left: 10px; padding-right: 10px">
+                        <input class="post_button" type="submit" name="Post">
                     </form>
 					<div class="row chat-row" style="margin: 5px 0; border: 1px solid gray; flex: 9; margin-top: -99999; overflow: auto">
 						<p style="margin: 10px 5px; border: 1px solid navy">
